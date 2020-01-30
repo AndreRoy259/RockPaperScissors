@@ -1,8 +1,8 @@
 :root {
-  --main-bg-color: #28c7fa;
-  --main-txt-color: #002651;
-  --main-btn-color: #775ada;
-  --main-btn-txt-color: rgb(225,225,225);
+  --main-bg-color: #2d4059;
+  --main-txt-color: #fcfcfc;
+  --main-btn-color: #f07b3f;
+  --main-btn-txt-color: #fcfcfc;
 }
 
 * {

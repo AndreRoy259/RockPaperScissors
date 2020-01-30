@@ -1,3 +1,10 @@
+:root {
+  --main-bg-color: #28c7fa;
+  --main-txt-color: #002651;
+  --main-btn-color: #775ada;
+  --main-btn-txt-color: rgb(225,225,225);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,12 +13,12 @@
 
 section {
   height: 100vh;
-  background-color: rgb(39, 41, 68);
+  background-color: var(--main-bg-color);
   font-family: "Bangers", cursive;
 }
 
 .score {
-  color: rgb(224, 224, 224);
+  color: var(--main-txt-color);
   height: 20vh;
   display: flex;
   justify-content: space-around;
@@ -29,7 +36,7 @@ section {
 }
 
 .intro {
-  color: rgb(224, 224, 224);
+  color: var(--main-txt-color);
   height: 50vh;
   display: flex;
   flex-direction: column;
@@ -48,9 +55,9 @@ section {
   height: 50px;
   background: none;
   border: none;
-  color: rgb(224, 224, 224);
+  color: var(--main-btn-txt-color);
   font-size: 20px;
-  background: rgb(45, 117, 96);
+  background: var(--main-btn-color);
   border-radius: 3px;
   cursor: pointer;
   font-family: "Bangers", cursive;
@@ -65,7 +72,7 @@ section {
 }
 
 .winner {
-  color: rgb(224, 224, 224);
+  color: var(--main-txt-color);
   text-align: center;
   font-size: 50px;
 }

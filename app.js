@@ -70,12 +70,12 @@ const game = () => {
     // Check for rock
     if (playerChoice === "rock") {
       if (computerChoice === "scissors") {
-        winner.textContent = "Player Win";
+        winner.textContent = "Player Win!";
         pScrore++;
         updateScore();
         return;
       } else {
-        winner.textContent = "Computer Win";
+        winner.textContent = "Computer Win!";
         cScore++;
         updateScore();
         return;
@@ -84,12 +84,12 @@ const game = () => {
     // Check for paper
     if (playerChoice === "paper") {
       if (computerChoice === "rock") {
-        winner.textContent = "Player Win";
+        winner.textContent = "Player Win!";
         pScrore++;
         updateScore();
         return;
       } else {
-        winner.textContent = "Computer Win";
+        winner.textContent = "Computer Win!";
         cScore++;
         updateScore();
         return;
@@ -98,12 +98,12 @@ const game = () => {
     // Check for scissors
     if (playerChoice === "scissors") {
       if (computerChoice === "paper") {
-        winner.textContent = "Player Win";
+        winner.textContent = "Player Win!";
         pScrore++;
         updateScore();
         return;
       } else {
-        winner.textContent = "Computer Win";
+        winner.textContent = "Computer Win!";
         cScore++;
         updateScore();
         return;
